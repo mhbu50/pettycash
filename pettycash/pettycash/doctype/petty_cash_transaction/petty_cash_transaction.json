@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "autoname": "field:petty_cash_transaction",
+ "creation": "2019-09-13 17:27:07.298154",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "petty_cash_transaction",
+  "description",
+  "accounts"
+ ],
+ "fields": [
+  {
+   "fieldname": "petty_cash_transaction",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Petty Cash Transaction",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description",
+   "width": "300px"
+  },
+  {
+   "fieldname": "accounts",
+   "fieldtype": "Table",
+   "label": "Accounts",
+   "options": "Petty Cash Account"
+  }
+ ],
+ "icon": "octicon octicon-file",
+ "links": [],
+ "modified": "2022-02-17 00:59:06.698859",
+ "modified_by": "Administrator",
+ "module": "Pettycash",
+ "name": "Petty Cash Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_seen": 1
+}

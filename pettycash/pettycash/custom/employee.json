@@ -1,0 +1,25 @@
+{
+ "custom_fields": [],
+ "custom_perms": [],
+ "doctype": "Employee",
+ "links": [
+  {
+   "creation": "2022-02-17 01:37:45.246386",
+   "custom": 1,
+   "docstatus": 0,
+   "group": null,
+   "hidden": 0,
+   "idx": 0,
+   "link_doctype": "Petty Cash",
+   "link_fieldname": "employee",
+   "modified": "2022-02-17 02:02:52.247092",
+   "modified_by": "mhbu50@gmail.com",
+   "name": "7133dfc549",
+   "owner": "mhbu50@gmail.com",
+   "parent": "Employee",
+   "parentfield": "links",
+   "parenttype": "Customize Form"
+  }
+ ],
+ "sync_on_migrate": 1
+}

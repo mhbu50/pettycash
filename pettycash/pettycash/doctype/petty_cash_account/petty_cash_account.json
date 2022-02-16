@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "creation": "2019-09-13 17:23:55.202392",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "default_account"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "default_account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Account",
+   "options": "Account",
+   "reqd": 1
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-17 00:59:54.964033",
+ "modified_by": "Administrator",
+ "module": "Pettycash",
+ "name": "Petty Cash Account",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
